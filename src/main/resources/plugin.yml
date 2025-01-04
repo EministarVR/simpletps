@@ -1,0 +1,23 @@
+name: SimpleTPs
+version: '${project.version}'
+main: de.eministarvr.simpletps.SimpleTps
+api-version: '1.21'
+commands:
+  tpa:
+    description: Request to teleport to another player
+    usage: /tpa <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny
+  credit:
+    description: Show credits and Discord link
+    usage: /credit
+  rtp:
+    description: Teleports you to a random safe location.
+    usage: /rtp
+  simpletp:
+    description: Displays help and commands for SimpleTps.
+    usage: /simpletp
